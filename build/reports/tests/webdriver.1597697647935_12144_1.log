@@ -1,0 +1,181 @@
+[1597697648.130][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 46467
+[1597697648.130][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597697648.969][INFO]: [974e5759ed7c0a52c32c4cf7fdc382dc] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\topi\\IdeaProjects\\ninjaplus\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\topi\\IdeaProjects\\ninjaplus\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597697648.971][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\topi\\IdeaProjects\\ninjaplus\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597697648.973][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597697648.974][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1597697648.974][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\topi\AppData\Local\Temp\scoped_dir11344_544242880" data:,
+[1597697649.548][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597697651.553][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1597697653.562][INFO]: [974e5759ed7c0a52c32c4cf7fdc382dc] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.125",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "C:\\Users\\topi\\AppData\\Local\\Temp\\scoped_dir11344_544242880"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:56101"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "974e5759ed7c0a52c32c4cf7fdc382dc"
+}
+[1597697653.612][INFO]: [974e5759ed7c0a52c32c4cf7fdc382dc] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1597697653.612][INFO]: Waiting for pending navigations...
+[1597697653.615][INFO]: Done waiting for pending navigations. Status: ok
+[1597697653.722][INFO]: Waiting for pending navigations...
+[1597697653.723][INFO]: Done waiting for pending navigations. Status: ok
+[1597697653.723][INFO]: [974e5759ed7c0a52c32c4cf7fdc382dc] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1597697653.731][INFO]: [974e5759ed7c0a52c32c4cf7fdc382dc] COMMAND Navigate {
+   "url": "\"http://ninjaplus-web:5000\"/login"
+}
+[1597697653.731][INFO]: Waiting for pending navigations...
+[1597697653.732][INFO]: Done waiting for pending navigations. Status: ok
+[1597697653.733][INFO]: Waiting for pending navigations...
+[1597697653.734][INFO]: Done waiting for pending navigations. Status: ok
+[1597697653.734][INFO]: [974e5759ed7c0a52c32c4cf7fdc382dc] RESPONSE Navigate ERROR invalid argument
+  (Session info: chrome=84.0.4147.125)
+[1597697653.782][INFO]: [974e5759ed7c0a52c32c4cf7fdc382dc] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "localStorage.clear();"
+}
+[1597697653.782][INFO]: Waiting for pending navigations...
+[1597697653.782][INFO]: Done waiting for pending navigations. Status: ok
+[1597697653.786][INFO]: Waiting for pending navigations...
+[1597697653.786][INFO]: Done waiting for pending navigations. Status: ok
+[1597697653.786][INFO]: [974e5759ed7c0a52c32c4cf7fdc382dc] RESPONSE ExecuteScript ERROR <unknown>: Failed to read the 'localStorage' property from 'Window': Storage is disabled inside 'data:' URLs.
+  (Session info: chrome=84.0.4147.125)
+[1597697653.817][INFO]: [974e5759ed7c0a52c32c4cf7fdc382dc] COMMAND Quit {
+
+}
+[1597697653.876][INFO]: [974e5759ed7c0a52c32c4cf7fdc382dc] RESPONSE Quit

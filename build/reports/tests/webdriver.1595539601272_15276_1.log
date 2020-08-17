@@ -1,0 +1,1225 @@
+[1595539601.393][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 35841
+[1595539601.393][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1595539602.051][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\topi\\IdeaProjects\\ninjaplus\\build\\downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\topi\\IdeaProjects\\ninjaplus\\build\\downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1595539602.053][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\topi\\IdeaProjects\\ninjaplus\\build\\downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1595539602.054][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1595539602.056][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1595539602.056][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\topi\AppData\Local\Temp\scoped_dir6868_1697721048" data:,
+[1595539602.551][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1595539604.558][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1595539606.579][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.89",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "C:\\Users\\topi\\AppData\\Local\\Temp\\scoped_dir6868_1697721048"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:65294"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "07b45b1deda92944fc27e83c6e8a2a3f"
+}
+[1595539606.611][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1595539606.611][INFO]: Waiting for pending navigations...
+[1595539606.614][INFO]: Done waiting for pending navigations. Status: ok
+[1595539606.722][INFO]: Waiting for pending navigations...
+[1595539606.723][INFO]: Done waiting for pending navigations. Status: ok
+[1595539606.723][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1595539606.732][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND Navigate {
+   "url": "http://ninjaplus-web:5000"
+}
+[1595539606.732][INFO]: Waiting for pending navigations...
+[1595539606.733][INFO]: Done waiting for pending navigations. Status: ok
+[1595539606.774][INFO]: Waiting for pending navigations...
+[1595539607.544][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.544][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE Navigate
+[1595539607.595][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539607.596][INFO]: Waiting for pending navigations...
+[1595539607.596][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.609][INFO]: Waiting for pending navigations...
+[1595539607.610][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.610][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "958a45e7-4c29-401d-b47b-bf9b4753a1f2"
+}
+[1595539607.637][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "958a45e7-4c29-401d-b47b-bf9b4753a1f2"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1595539607.637][INFO]: Waiting for pending navigations...
+[1595539607.637][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.649][INFO]: Waiting for pending navigations...
+[1595539607.651][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.651][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE ExecuteScript true
+[1595539607.662][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND ClearElement {
+   "id": "958a45e7-4c29-401d-b47b-bf9b4753a1f2"
+}
+[1595539607.662][INFO]: Waiting for pending navigations...
+[1595539607.663][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.680][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1595539607.689][INFO]: Waiting for pending navigations...
+[1595539607.690][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.690][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE ClearElement
+[1595539607.697][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND TypeElement {
+   "id": "958a45e7-4c29-401d-b47b-bf9b4753a1f2",
+   "text": "bruna@teste.com",
+   "value": [ "b", "r", "u", "n", "a", "@", "t", "e", "s", "t", "e", ".", "c", "o", "m" ]
+}
+[1595539607.697][INFO]: Waiting for pending navigations...
+[1595539607.698][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.750][INFO]: Waiting for pending navigations...
+[1595539607.754][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.754][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE TypeElement
+[1595539607.758][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#passId"
+}
+[1595539607.758][INFO]: Waiting for pending navigations...
+[1595539607.760][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.767][INFO]: Waiting for pending navigations...
+[1595539607.768][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.768][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6e13fb7c-cb62-459d-b7f5-54d5b618f83b"
+}
+[1595539607.778][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "6e13fb7c-cb62-459d-b7f5-54d5b618f83b"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1595539607.778][INFO]: Waiting for pending navigations...
+[1595539607.779][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.787][INFO]: Waiting for pending navigations...
+[1595539607.788][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.788][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE ExecuteScript true
+[1595539607.792][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND ClearElement {
+   "id": "6e13fb7c-cb62-459d-b7f5-54d5b618f83b"
+}
+[1595539607.792][INFO]: Waiting for pending navigations...
+[1595539607.793][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.817][INFO]: Waiting for pending navigations...
+[1595539607.818][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.818][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE ClearElement
+[1595539607.822][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND TypeElement {
+   "id": "6e13fb7c-cb62-459d-b7f5-54d5b618f83b",
+   "text": "pwd123",
+   "value": [ "p", "w", "d", "1", "2", "3" ]
+}
+[1595539607.822][INFO]: Waiting for pending navigations...
+[1595539607.823][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.859][INFO]: Waiting for pending navigations...
+[1595539607.863][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.863][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE TypeElement
+[1595539607.868][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//*/text()[normalize-space(translate(string(.), '\t\n\r ', '    ')) = \"Entrar\"]/parent::*"
+}
+[1595539607.868][INFO]: Waiting for pending navigations...
+[1595539607.869][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.893][INFO]: Waiting for pending navigations...
+[1595539607.895][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.895][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "02f091fd-2d0b-45ca-b79b-7d7a2df4e4c4"
+}
+[1595539607.904][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "02f091fd-2d0b-45ca-b79b-7d7a2df4e4c4"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1595539607.904][INFO]: Waiting for pending navigations...
+[1595539607.904][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.910][INFO]: Waiting for pending navigations...
+[1595539607.912][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.912][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE ExecuteScript true
+[1595539607.915][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND ClickElement {
+   "id": "02f091fd-2d0b-45ca-b79b-7d7a2df4e4c4"
+}
+[1595539607.915][INFO]: Waiting for pending navigations...
+[1595539607.916][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.945][INFO]: Waiting for pending navigations...
+[1595539607.948][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.948][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE ClickElement
+[1595539607.952][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div/div[2]/div[1]/div[2]/div[1]/div[2]/a/span"
+}
+[1595539607.952][INFO]: Waiting for pending navigations...
+[1595539607.953][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.963][INFO]: Waiting for pending navigations...
+[1595539607.964][INFO]: Done waiting for pending navigations. Status: ok
+[1595539607.964][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div[2]/div[1]/div[2]/div[1]/div[2]/a/span"}
+  (Session info: chrome=84.0.4147.89)
+[1595539608.201][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div/div[2]/div[1]/div[2]/div[1]/div[2]/a/span"
+}
+[1595539608.201][INFO]: Waiting for pending navigations...
+[1595539608.202][INFO]: Done waiting for pending navigations. Status: ok
+[1595539608.206][INFO]: Waiting for pending navigations...
+[1595539608.206][INFO]: Done waiting for pending navigations. Status: ok
+[1595539608.206][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div[2]/div[1]/div[2]/div[1]/div[2]/a/span"}
+  (Session info: chrome=84.0.4147.89)
+[1595539608.412][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "/html/body/div/div[2]/div[1]/div[2]/div[1]/div[2]/a/span"
+}
+[1595539608.412][INFO]: Waiting for pending navigations...
+[1595539608.413][INFO]: Done waiting for pending navigations. Status: ok
+[1595539608.417][INFO]: Waiting for pending navigations...
+[1595539608.418][INFO]: Done waiting for pending navigations. Status: ok
+[1595539608.418][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6baef492-5e20-43f2-8f04-18b5a53f18d8"
+}
+[1595539608.420][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND GetElementTagName {
+   "id": "6baef492-5e20-43f2-8f04-18b5a53f18d8"
+}
+[1595539608.420][INFO]: Waiting for pending navigations...
+[1595539608.421][INFO]: Done waiting for pending navigations. Status: ok
+[1595539608.423][INFO]: Waiting for pending navigations...
+[1595539608.423][INFO]: Done waiting for pending navigations. Status: ok
+[1595539608.423][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE GetElementTagName "span"
+[1595539608.425][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND GetElementText {
+   "id": "6baef492-5e20-43f2-8f04-18b5a53f18d8"
+}
+[1595539608.425][INFO]: Waiting for pending navigations...
+[1595539608.426][INFO]: Done waiting for pending navigations. Status: ok
+[1595539608.438][INFO]: Waiting for pending navigations...
+[1595539608.439][INFO]: Done waiting for pending navigations. Status: ok
+[1595539608.439][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE GetElementText "Bruna"
+[1595539608.448][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND GetTitle {
+
+}
+[1595539608.448][INFO]: Waiting for pending navigations...
+[1595539608.449][INFO]: Done waiting for pending navigations. Status: ok
+[1595539608.451][INFO]: Waiting for pending navigations...
+[1595539608.452][INFO]: Done waiting for pending navigations. Status: ok
+[1595539608.452][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE GetTitle "Ninja+"
+[1595539608.454][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND Navigate {
+   "url": "http://ninjaplus-web:5000"
+}
+[1595539608.454][INFO]: Waiting for pending navigations...
+[1595539608.455][INFO]: Done waiting for pending navigations. Status: ok
+[1595539608.471][INFO]: Waiting for pending navigations...
+[1595539608.767][INFO]: Done waiting for pending navigations. Status: ok
+[1595539608.767][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE Navigate
+[1595539608.773][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539608.773][INFO]: Waiting for pending navigations...
+[1595539608.775][INFO]: Done waiting for pending navigations. Status: ok
+[1595539608.836][INFO]: Waiting for pending navigations...
+[1595539608.850][INFO]: Done waiting for pending navigations. Status: ok
+[1595539608.850][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539609.054][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539609.054][INFO]: Waiting for pending navigations...
+[1595539609.056][INFO]: Done waiting for pending navigations. Status: ok
+[1595539609.060][INFO]: Waiting for pending navigations...
+[1595539609.061][INFO]: Done waiting for pending navigations. Status: ok
+[1595539609.061][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539609.268][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539609.268][INFO]: Waiting for pending navigations...
+[1595539609.270][INFO]: Done waiting for pending navigations. Status: ok
+[1595539609.282][INFO]: Waiting for pending navigations...
+[1595539609.284][INFO]: Done waiting for pending navigations. Status: ok
+[1595539609.284][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539609.489][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539609.489][INFO]: Waiting for pending navigations...
+[1595539609.491][INFO]: Done waiting for pending navigations. Status: ok
+[1595539609.495][INFO]: Waiting for pending navigations...
+[1595539609.496][INFO]: Done waiting for pending navigations. Status: ok
+[1595539609.496][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539609.700][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539609.700][INFO]: Waiting for pending navigations...
+[1595539609.701][INFO]: Done waiting for pending navigations. Status: ok
+[1595539609.705][INFO]: Waiting for pending navigations...
+[1595539609.706][INFO]: Done waiting for pending navigations. Status: ok
+[1595539609.706][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539609.910][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539609.910][INFO]: Waiting for pending navigations...
+[1595539609.911][INFO]: Done waiting for pending navigations. Status: ok
+[1595539609.917][INFO]: Waiting for pending navigations...
+[1595539609.918][INFO]: Done waiting for pending navigations. Status: ok
+[1595539609.918][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539610.122][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539610.122][INFO]: Waiting for pending navigations...
+[1595539610.124][INFO]: Done waiting for pending navigations. Status: ok
+[1595539610.129][INFO]: Waiting for pending navigations...
+[1595539610.130][INFO]: Done waiting for pending navigations. Status: ok
+[1595539610.130][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539610.337][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539610.337][INFO]: Waiting for pending navigations...
+[1595539610.339][INFO]: Done waiting for pending navigations. Status: ok
+[1595539610.347][INFO]: Waiting for pending navigations...
+[1595539610.348][INFO]: Done waiting for pending navigations. Status: ok
+[1595539610.348][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539610.552][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539610.552][INFO]: Waiting for pending navigations...
+[1595539610.554][INFO]: Done waiting for pending navigations. Status: ok
+[1595539610.558][INFO]: Waiting for pending navigations...
+[1595539610.559][INFO]: Done waiting for pending navigations. Status: ok
+[1595539610.559][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539610.763][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539610.763][INFO]: Waiting for pending navigations...
+[1595539610.764][INFO]: Done waiting for pending navigations. Status: ok
+[1595539610.770][INFO]: Waiting for pending navigations...
+[1595539610.770][INFO]: Done waiting for pending navigations. Status: ok
+[1595539610.770][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539610.976][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539610.976][INFO]: Waiting for pending navigations...
+[1595539610.977][INFO]: Done waiting for pending navigations. Status: ok
+[1595539610.982][INFO]: Waiting for pending navigations...
+[1595539610.983][INFO]: Done waiting for pending navigations. Status: ok
+[1595539610.983][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539611.188][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539611.188][INFO]: Waiting for pending navigations...
+[1595539611.189][INFO]: Done waiting for pending navigations. Status: ok
+[1595539611.194][INFO]: Waiting for pending navigations...
+[1595539611.194][INFO]: Done waiting for pending navigations. Status: ok
+[1595539611.194][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539611.399][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539611.399][INFO]: Waiting for pending navigations...
+[1595539611.399][INFO]: Done waiting for pending navigations. Status: ok
+[1595539611.404][INFO]: Waiting for pending navigations...
+[1595539611.404][INFO]: Done waiting for pending navigations. Status: ok
+[1595539611.404][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539611.608][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539611.608][INFO]: Waiting for pending navigations...
+[1595539611.609][INFO]: Done waiting for pending navigations. Status: ok
+[1595539611.613][INFO]: Waiting for pending navigations...
+[1595539611.614][INFO]: Done waiting for pending navigations. Status: ok
+[1595539611.614][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539611.819][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539611.819][INFO]: Waiting for pending navigations...
+[1595539611.820][INFO]: Done waiting for pending navigations. Status: ok
+[1595539611.825][INFO]: Waiting for pending navigations...
+[1595539611.826][INFO]: Done waiting for pending navigations. Status: ok
+[1595539611.826][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539612.031][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539612.031][INFO]: Waiting for pending navigations...
+[1595539612.033][INFO]: Done waiting for pending navigations. Status: ok
+[1595539612.040][INFO]: Waiting for pending navigations...
+[1595539612.041][INFO]: Done waiting for pending navigations. Status: ok
+[1595539612.041][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539612.244][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539612.244][INFO]: Waiting for pending navigations...
+[1595539612.245][INFO]: Done waiting for pending navigations. Status: ok
+[1595539612.252][INFO]: Waiting for pending navigations...
+[1595539612.253][INFO]: Done waiting for pending navigations. Status: ok
+[1595539612.253][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539612.460][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539612.460][INFO]: Waiting for pending navigations...
+[1595539612.461][INFO]: Done waiting for pending navigations. Status: ok
+[1595539612.479][INFO]: Waiting for pending navigations...
+[1595539612.481][INFO]: Done waiting for pending navigations. Status: ok
+[1595539612.481][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539612.688][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539612.688][INFO]: Waiting for pending navigations...
+[1595539612.690][INFO]: Done waiting for pending navigations. Status: ok
+[1595539612.698][INFO]: Waiting for pending navigations...
+[1595539612.699][INFO]: Done waiting for pending navigations. Status: ok
+[1595539612.699][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539613.090][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1595539613.090][INFO]: Waiting for pending navigations...
+[1595539613.091][INFO]: Done waiting for pending navigations. Status: ok
+[1595539613.188][INFO]: Waiting for pending navigations...
+[1595539613.189][INFO]: Done waiting for pending navigations. Status: ok
+[1595539613.190][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE ExecuteScript "\u003Chtml class=\" \">\u003Chead>\n  \u003Cmeta charset=\"utf-8\">\n  \u003Clink rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"/favicon.png\">\n  \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\n  \u003Ctitle>Nin..."
+[1595539613.320][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND Screenshot {
+
+}
+[1595539613.320][INFO]: Waiting for pending navigations...
+[1595539613.321][INFO]: Done waiting for pending navigations. Status: ok
+[1595539613.624][INFO]: Waiting for pending navigations...
+[1595539613.625][INFO]: Done waiting for pending navigations. Status: ok
+[1595539613.625][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XeYVPXZPvD7nDN9ey9sZSnLwsLSQUAERBQICiIgKLFExZ5oovE1P2NiTIw9wZpoLCAgAioCShEU6XWX3tnCdpats9PP+f0xsDDMzLJ9duH+XBeXcuozs7y+F..."
+[1595539613.655][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND GetTitle {
+
+}
+[1595539613.655][INFO]: Waiting for pending navigations...
+[1595539613.656][INFO]: Done waiting for pending navigations. Status: ok
+[1595539613.657][INFO]: Waiting for pending navigations...
+[1595539613.658][INFO]: Done waiting for pending navigations. Status: ok
+[1595539613.658][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE GetTitle "Ninja+"
+[1595539613.661][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND Navigate {
+   "url": "http://ninjaplus-web:5000"
+}
+[1595539613.661][INFO]: Waiting for pending navigations...
+[1595539613.662][INFO]: Done waiting for pending navigations. Status: ok
+[1595539613.681][INFO]: Waiting for pending navigations...
+[1595539613.858][INFO]: Done waiting for pending navigations. Status: ok
+[1595539613.858][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE Navigate
+[1595539613.862][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539613.862][INFO]: Waiting for pending navigations...
+[1595539613.863][INFO]: Done waiting for pending navigations. Status: ok
+[1595539613.871][INFO]: Waiting for pending navigations...
+[1595539613.872][INFO]: Done waiting for pending navigations. Status: ok
+[1595539613.872][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539614.075][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539614.076][INFO]: Waiting for pending navigations...
+[1595539614.077][INFO]: Done waiting for pending navigations. Status: ok
+[1595539614.082][INFO]: Waiting for pending navigations...
+[1595539614.084][INFO]: Done waiting for pending navigations. Status: ok
+[1595539614.084][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539614.289][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539614.289][INFO]: Waiting for pending navigations...
+[1595539614.290][INFO]: Done waiting for pending navigations. Status: ok
+[1595539614.294][INFO]: Waiting for pending navigations...
+[1595539614.295][INFO]: Done waiting for pending navigations. Status: ok
+[1595539614.295][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539614.497][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539614.497][INFO]: Waiting for pending navigations...
+[1595539614.499][INFO]: Done waiting for pending navigations. Status: ok
+[1595539614.503][INFO]: Waiting for pending navigations...
+[1595539614.504][INFO]: Done waiting for pending navigations. Status: ok
+[1595539614.504][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539614.708][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539614.709][INFO]: Waiting for pending navigations...
+[1595539614.710][INFO]: Done waiting for pending navigations. Status: ok
+[1595539614.718][INFO]: Waiting for pending navigations...
+[1595539614.722][INFO]: Done waiting for pending navigations. Status: ok
+[1595539614.722][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539614.926][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539614.926][INFO]: Waiting for pending navigations...
+[1595539614.927][INFO]: Done waiting for pending navigations. Status: ok
+[1595539614.932][INFO]: Waiting for pending navigations...
+[1595539614.932][INFO]: Done waiting for pending navigations. Status: ok
+[1595539614.932][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539615.136][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539615.136][INFO]: Waiting for pending navigations...
+[1595539615.137][INFO]: Done waiting for pending navigations. Status: ok
+[1595539615.147][INFO]: Waiting for pending navigations...
+[1595539615.148][INFO]: Done waiting for pending navigations. Status: ok
+[1595539615.148][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539615.353][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539615.353][INFO]: Waiting for pending navigations...
+[1595539615.354][INFO]: Done waiting for pending navigations. Status: ok
+[1595539615.358][INFO]: Waiting for pending navigations...
+[1595539615.359][INFO]: Done waiting for pending navigations. Status: ok
+[1595539615.359][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539615.563][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539615.563][INFO]: Waiting for pending navigations...
+[1595539615.564][INFO]: Done waiting for pending navigations. Status: ok
+[1595539615.568][INFO]: Waiting for pending navigations...
+[1595539615.569][INFO]: Done waiting for pending navigations. Status: ok
+[1595539615.569][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539615.773][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539615.773][INFO]: Waiting for pending navigations...
+[1595539615.774][INFO]: Done waiting for pending navigations. Status: ok
+[1595539615.778][INFO]: Waiting for pending navigations...
+[1595539615.779][INFO]: Done waiting for pending navigations. Status: ok
+[1595539615.779][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539615.983][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539615.983][INFO]: Waiting for pending navigations...
+[1595539615.983][INFO]: Done waiting for pending navigations. Status: ok
+[1595539615.988][INFO]: Waiting for pending navigations...
+[1595539615.989][INFO]: Done waiting for pending navigations. Status: ok
+[1595539615.989][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539616.192][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539616.192][INFO]: Waiting for pending navigations...
+[1595539616.194][INFO]: Done waiting for pending navigations. Status: ok
+[1595539616.198][INFO]: Waiting for pending navigations...
+[1595539616.199][INFO]: Done waiting for pending navigations. Status: ok
+[1595539616.199][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539616.402][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539616.402][INFO]: Waiting for pending navigations...
+[1595539616.403][INFO]: Done waiting for pending navigations. Status: ok
+[1595539616.408][INFO]: Waiting for pending navigations...
+[1595539616.409][INFO]: Done waiting for pending navigations. Status: ok
+[1595539616.409][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539616.613][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539616.613][INFO]: Waiting for pending navigations...
+[1595539616.614][INFO]: Done waiting for pending navigations. Status: ok
+[1595539616.618][INFO]: Waiting for pending navigations...
+[1595539616.619][INFO]: Done waiting for pending navigations. Status: ok
+[1595539616.619][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539616.823][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539616.823][INFO]: Waiting for pending navigations...
+[1595539616.824][INFO]: Done waiting for pending navigations. Status: ok
+[1595539616.828][INFO]: Waiting for pending navigations...
+[1595539616.829][INFO]: Done waiting for pending navigations. Status: ok
+[1595539616.829][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539617.032][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539617.032][INFO]: Waiting for pending navigations...
+[1595539617.032][INFO]: Done waiting for pending navigations. Status: ok
+[1595539617.036][INFO]: Waiting for pending navigations...
+[1595539617.037][INFO]: Done waiting for pending navigations. Status: ok
+[1595539617.037][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539617.240][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539617.240][INFO]: Waiting for pending navigations...
+[1595539617.241][INFO]: Done waiting for pending navigations. Status: ok
+[1595539617.245][INFO]: Waiting for pending navigations...
+[1595539617.246][INFO]: Done waiting for pending navigations. Status: ok
+[1595539617.246][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539617.449][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539617.449][INFO]: Waiting for pending navigations...
+[1595539617.451][INFO]: Done waiting for pending navigations. Status: ok
+[1595539617.455][INFO]: Waiting for pending navigations...
+[1595539617.456][INFO]: Done waiting for pending navigations. Status: ok
+[1595539617.456][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539617.660][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539617.660][INFO]: Waiting for pending navigations...
+[1595539617.661][INFO]: Done waiting for pending navigations. Status: ok
+[1595539617.666][INFO]: Waiting for pending navigations...
+[1595539617.667][INFO]: Done waiting for pending navigations. Status: ok
+[1595539617.667][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539617.871][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1595539617.871][INFO]: Waiting for pending navigations...
+[1595539617.872][INFO]: Done waiting for pending navigations. Status: ok
+[1595539617.967][INFO]: Waiting for pending navigations...
+[1595539617.968][INFO]: Done waiting for pending navigations. Status: ok
+[1595539617.969][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\n  \u003Cmeta charset=\"utf-8\">\n  \u003Clink rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"/favicon.png\">\n  \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\n  \u003Ctitle>Ninja+\u003C/title..."
+[1595539618.064][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND Screenshot {
+
+}
+[1595539618.064][INFO]: Waiting for pending navigations...
+[1595539618.065][INFO]: Done waiting for pending navigations. Status: ok
+[1595539618.368][INFO]: Waiting for pending navigations...
+[1595539618.369][INFO]: Done waiting for pending navigations. Status: ok
+[1595539618.370][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XeYVPXZPvD7nDN9ey9sZSnLwsLSQUAERBQICiIgKLFExZ5oovE1P2NiTIw9wZpoLCAgAioCShEU6XWX3tnCdpats9PP+f0xsDDMzLJ9duH+XBeXcuozs7y+F..."
+[1595539618.381][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND GetTitle {
+
+}
+[1595539618.381][INFO]: Waiting for pending navigations...
+[1595539618.382][INFO]: Done waiting for pending navigations. Status: ok
+[1595539618.383][INFO]: Waiting for pending navigations...
+[1595539618.384][INFO]: Done waiting for pending navigations. Status: ok
+[1595539618.384][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE GetTitle "Ninja+"
+[1595539618.387][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND Navigate {
+   "url": "http://ninjaplus-web:5000"
+}
+[1595539618.387][INFO]: Waiting for pending navigations...
+[1595539618.388][INFO]: Done waiting for pending navigations. Status: ok
+[1595539618.406][INFO]: Waiting for pending navigations...
+[1595539618.541][INFO]: Done waiting for pending navigations. Status: ok
+[1595539618.542][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE Navigate
+[1595539618.545][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539618.545][INFO]: Waiting for pending navigations...
+[1595539618.546][INFO]: Done waiting for pending navigations. Status: ok
+[1595539618.555][INFO]: Waiting for pending navigations...
+[1595539618.556][INFO]: Done waiting for pending navigations. Status: ok
+[1595539618.556][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539618.761][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539618.762][INFO]: Waiting for pending navigations...
+[1595539618.763][INFO]: Done waiting for pending navigations. Status: ok
+[1595539618.768][INFO]: Waiting for pending navigations...
+[1595539618.769][INFO]: Done waiting for pending navigations. Status: ok
+[1595539618.769][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539618.973][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539618.973][INFO]: Waiting for pending navigations...
+[1595539618.974][INFO]: Done waiting for pending navigations. Status: ok
+[1595539618.978][INFO]: Waiting for pending navigations...
+[1595539618.979][INFO]: Done waiting for pending navigations. Status: ok
+[1595539618.979][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539619.182][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539619.182][INFO]: Waiting for pending navigations...
+[1595539619.183][INFO]: Done waiting for pending navigations. Status: ok
+[1595539619.187][INFO]: Waiting for pending navigations...
+[1595539619.188][INFO]: Done waiting for pending navigations. Status: ok
+[1595539619.188][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539619.391][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539619.392][INFO]: Waiting for pending navigations...
+[1595539619.392][INFO]: Done waiting for pending navigations. Status: ok
+[1595539619.397][INFO]: Waiting for pending navigations...
+[1595539619.398][INFO]: Done waiting for pending navigations. Status: ok
+[1595539619.398][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539619.602][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539619.602][INFO]: Waiting for pending navigations...
+[1595539619.603][INFO]: Done waiting for pending navigations. Status: ok
+[1595539619.607][INFO]: Waiting for pending navigations...
+[1595539619.608][INFO]: Done waiting for pending navigations. Status: ok
+[1595539619.608][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539619.812][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539619.813][INFO]: Waiting for pending navigations...
+[1595539619.813][INFO]: Done waiting for pending navigations. Status: ok
+[1595539619.818][INFO]: Waiting for pending navigations...
+[1595539619.819][INFO]: Done waiting for pending navigations. Status: ok
+[1595539619.819][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539620.023][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539620.023][INFO]: Waiting for pending navigations...
+[1595539620.024][INFO]: Done waiting for pending navigations. Status: ok
+[1595539620.030][INFO]: Waiting for pending navigations...
+[1595539620.030][INFO]: Done waiting for pending navigations. Status: ok
+[1595539620.030][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539620.235][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539620.235][INFO]: Waiting for pending navigations...
+[1595539620.236][INFO]: Done waiting for pending navigations. Status: ok
+[1595539620.242][INFO]: Waiting for pending navigations...
+[1595539620.243][INFO]: Done waiting for pending navigations. Status: ok
+[1595539620.243][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539620.447][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539620.447][INFO]: Waiting for pending navigations...
+[1595539620.449][INFO]: Done waiting for pending navigations. Status: ok
+[1595539620.453][INFO]: Waiting for pending navigations...
+[1595539620.454][INFO]: Done waiting for pending navigations. Status: ok
+[1595539620.454][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539620.658][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539620.658][INFO]: Waiting for pending navigations...
+[1595539620.659][INFO]: Done waiting for pending navigations. Status: ok
+[1595539620.668][INFO]: Waiting for pending navigations...
+[1595539620.670][INFO]: Done waiting for pending navigations. Status: ok
+[1595539620.670][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539620.877][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539620.877][INFO]: Waiting for pending navigations...
+[1595539620.879][INFO]: Done waiting for pending navigations. Status: ok
+[1595539620.891][INFO]: Waiting for pending navigations...
+[1595539620.893][INFO]: Done waiting for pending navigations. Status: ok
+[1595539620.893][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539621.100][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539621.100][INFO]: Waiting for pending navigations...
+[1595539621.102][INFO]: Done waiting for pending navigations. Status: ok
+[1595539621.115][INFO]: Waiting for pending navigations...
+[1595539621.116][INFO]: Done waiting for pending navigations. Status: ok
+[1595539621.117][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539621.324][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539621.324][INFO]: Waiting for pending navigations...
+[1595539621.326][INFO]: Done waiting for pending navigations. Status: ok
+[1595539621.333][INFO]: Waiting for pending navigations...
+[1595539621.333][INFO]: Done waiting for pending navigations. Status: ok
+[1595539621.333][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539621.537][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539621.537][INFO]: Waiting for pending navigations...
+[1595539621.538][INFO]: Done waiting for pending navigations. Status: ok
+[1595539621.541][INFO]: Waiting for pending navigations...
+[1595539621.541][INFO]: Done waiting for pending navigations. Status: ok
+[1595539621.541][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539621.745][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539621.745][INFO]: Waiting for pending navigations...
+[1595539621.746][INFO]: Done waiting for pending navigations. Status: ok
+[1595539621.750][INFO]: Waiting for pending navigations...
+[1595539621.751][INFO]: Done waiting for pending navigations. Status: ok
+[1595539621.751][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539621.955][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539621.955][INFO]: Waiting for pending navigations...
+[1595539621.957][INFO]: Done waiting for pending navigations. Status: ok
+[1595539621.965][INFO]: Waiting for pending navigations...
+[1595539621.966][INFO]: Done waiting for pending navigations. Status: ok
+[1595539621.966][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539622.169][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539622.169][INFO]: Waiting for pending navigations...
+[1595539622.171][INFO]: Done waiting for pending navigations. Status: ok
+[1595539622.175][INFO]: Waiting for pending navigations...
+[1595539622.176][INFO]: Done waiting for pending navigations. Status: ok
+[1595539622.176][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539622.380][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539622.380][INFO]: Waiting for pending navigations...
+[1595539622.381][INFO]: Done waiting for pending navigations. Status: ok
+[1595539622.386][INFO]: Waiting for pending navigations...
+[1595539622.387][INFO]: Done waiting for pending navigations. Status: ok
+[1595539622.387][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539622.592][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1595539622.592][INFO]: Waiting for pending navigations...
+[1595539622.594][INFO]: Done waiting for pending navigations. Status: ok
+[1595539622.691][INFO]: Waiting for pending navigations...
+[1595539622.692][INFO]: Done waiting for pending navigations. Status: ok
+[1595539622.692][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\n  \u003Cmeta charset=\"utf-8\">\n  \u003Clink rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"/favicon.png\">\n  \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\n  \u003Ctitle>Ninja+\u003C/title..."
+[1595539622.803][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND Screenshot {
+
+}
+[1595539622.803][INFO]: Waiting for pending navigations...
+[1595539622.804][INFO]: Done waiting for pending navigations. Status: ok
+[1595539623.095][INFO]: Waiting for pending navigations...
+[1595539623.096][INFO]: Done waiting for pending navigations. Status: ok
+[1595539623.096][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XeYVPXZPvD7nDN9ey9sZSnLwsLSQUAERBQICiIgKLFExZ5oovE1P2NiTIw9wZpoLCAgAioCShEU6XWX3tnCdpats9PP+f0xsDDMzLJ9duH+XBeXcuozs7y+F..."
+[1595539623.105][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND GetTitle {
+
+}
+[1595539623.105][INFO]: Waiting for pending navigations...
+[1595539623.105][INFO]: Done waiting for pending navigations. Status: ok
+[1595539623.107][INFO]: Waiting for pending navigations...
+[1595539623.107][INFO]: Done waiting for pending navigations. Status: ok
+[1595539623.107][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE GetTitle "Ninja+"
+[1595539623.111][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND Navigate {
+   "url": "http://ninjaplus-web:5000"
+}
+[1595539623.111][INFO]: Waiting for pending navigations...
+[1595539623.112][INFO]: Done waiting for pending navigations. Status: ok
+[1595539623.128][INFO]: Waiting for pending navigations...
+[1595539623.271][INFO]: Done waiting for pending navigations. Status: ok
+[1595539623.271][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE Navigate
+[1595539623.274][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539623.274][INFO]: Waiting for pending navigations...
+[1595539623.275][INFO]: Done waiting for pending navigations. Status: ok
+[1595539623.280][INFO]: Waiting for pending navigations...
+[1595539623.282][INFO]: Done waiting for pending navigations. Status: ok
+[1595539623.282][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539623.486][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539623.487][INFO]: Waiting for pending navigations...
+[1595539623.488][INFO]: Done waiting for pending navigations. Status: ok
+[1595539623.492][INFO]: Waiting for pending navigations...
+[1595539623.493][INFO]: Done waiting for pending navigations. Status: ok
+[1595539623.493][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539623.697][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539623.697][INFO]: Waiting for pending navigations...
+[1595539623.699][INFO]: Done waiting for pending navigations. Status: ok
+[1595539623.712][INFO]: Waiting for pending navigations...
+[1595539623.714][INFO]: Done waiting for pending navigations. Status: ok
+[1595539623.714][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539623.921][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539623.921][INFO]: Waiting for pending navigations...
+[1595539623.923][INFO]: Done waiting for pending navigations. Status: ok
+[1595539623.936][INFO]: Waiting for pending navigations...
+[1595539623.937][INFO]: Done waiting for pending navigations. Status: ok
+[1595539623.937][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539624.142][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539624.142][INFO]: Waiting for pending navigations...
+[1595539624.144][INFO]: Done waiting for pending navigations. Status: ok
+[1595539624.154][INFO]: Waiting for pending navigations...
+[1595539624.155][INFO]: Done waiting for pending navigations. Status: ok
+[1595539624.155][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539624.362][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539624.362][INFO]: Waiting for pending navigations...
+[1595539624.364][INFO]: Done waiting for pending navigations. Status: ok
+[1595539624.372][INFO]: Waiting for pending navigations...
+[1595539624.373][INFO]: Done waiting for pending navigations. Status: ok
+[1595539624.373][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539624.578][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539624.578][INFO]: Waiting for pending navigations...
+[1595539624.580][INFO]: Done waiting for pending navigations. Status: ok
+[1595539624.584][INFO]: Waiting for pending navigations...
+[1595539624.585][INFO]: Done waiting for pending navigations. Status: ok
+[1595539624.585][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539624.788][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539624.788][INFO]: Waiting for pending navigations...
+[1595539624.789][INFO]: Done waiting for pending navigations. Status: ok
+[1595539624.794][INFO]: Waiting for pending navigations...
+[1595539624.795][INFO]: Done waiting for pending navigations. Status: ok
+[1595539624.795][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539625.000][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539625.000][INFO]: Waiting for pending navigations...
+[1595539625.002][INFO]: Done waiting for pending navigations. Status: ok
+[1595539625.015][INFO]: Waiting for pending navigations...
+[1595539625.017][INFO]: Done waiting for pending navigations. Status: ok
+[1595539625.017][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539625.222][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539625.222][INFO]: Waiting for pending navigations...
+[1595539625.224][INFO]: Done waiting for pending navigations. Status: ok
+[1595539625.229][INFO]: Waiting for pending navigations...
+[1595539625.230][INFO]: Done waiting for pending navigations. Status: ok
+[1595539625.230][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539625.437][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539625.437][INFO]: Waiting for pending navigations...
+[1595539625.438][INFO]: Done waiting for pending navigations. Status: ok
+[1595539625.443][INFO]: Waiting for pending navigations...
+[1595539625.444][INFO]: Done waiting for pending navigations. Status: ok
+[1595539625.444][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539625.646][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539625.646][INFO]: Waiting for pending navigations...
+[1595539625.647][INFO]: Done waiting for pending navigations. Status: ok
+[1595539625.652][INFO]: Waiting for pending navigations...
+[1595539625.653][INFO]: Done waiting for pending navigations. Status: ok
+[1595539625.653][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539625.858][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539625.858][INFO]: Waiting for pending navigations...
+[1595539625.860][INFO]: Done waiting for pending navigations. Status: ok
+[1595539625.872][INFO]: Waiting for pending navigations...
+[1595539625.873][INFO]: Done waiting for pending navigations. Status: ok
+[1595539625.874][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539626.078][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539626.078][INFO]: Waiting for pending navigations...
+[1595539626.080][INFO]: Done waiting for pending navigations. Status: ok
+[1595539626.091][INFO]: Waiting for pending navigations...
+[1595539626.093][INFO]: Done waiting for pending navigations. Status: ok
+[1595539626.093][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539626.299][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539626.299][INFO]: Waiting for pending navigations...
+[1595539626.301][INFO]: Done waiting for pending navigations. Status: ok
+[1595539626.309][INFO]: Waiting for pending navigations...
+[1595539626.310][INFO]: Done waiting for pending navigations. Status: ok
+[1595539626.310][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539626.515][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539626.515][INFO]: Waiting for pending navigations...
+[1595539626.517][INFO]: Done waiting for pending navigations. Status: ok
+[1595539626.528][INFO]: Waiting for pending navigations...
+[1595539626.530][INFO]: Done waiting for pending navigations. Status: ok
+[1595539626.530][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539626.736][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539626.736][INFO]: Waiting for pending navigations...
+[1595539626.738][INFO]: Done waiting for pending navigations. Status: ok
+[1595539626.746][INFO]: Waiting for pending navigations...
+[1595539626.747][INFO]: Done waiting for pending navigations. Status: ok
+[1595539626.747][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539626.953][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539626.953][INFO]: Waiting for pending navigations...
+[1595539626.955][INFO]: Done waiting for pending navigations. Status: ok
+[1595539626.965][INFO]: Waiting for pending navigations...
+[1595539626.965][INFO]: Done waiting for pending navigations. Status: ok
+[1595539626.965][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539627.170][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"emailId\"]"
+}
+[1595539627.170][INFO]: Waiting for pending navigations...
+[1595539627.170][INFO]: Done waiting for pending navigations. Status: ok
+[1595539627.174][INFO]: Waiting for pending navigations...
+[1595539627.175][INFO]: Done waiting for pending navigations. Status: ok
+[1595539627.175][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="emailId"]"}
+  (Session info: chrome=84.0.4147.89)
+[1595539627.378][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1595539627.378][INFO]: Waiting for pending navigations...
+[1595539627.379][INFO]: Done waiting for pending navigations. Status: ok
+[1595539627.470][INFO]: Waiting for pending navigations...
+[1595539627.471][INFO]: Done waiting for pending navigations. Status: ok
+[1595539627.472][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\n  \u003Cmeta charset=\"utf-8\">\n  \u003Clink rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"/favicon.png\">\n  \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\n  \u003Ctitle>Ninja+\u003C/title..."
+[1595539627.564][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND Screenshot {
+
+}
+[1595539627.564][INFO]: Waiting for pending navigations...
+[1595539627.566][INFO]: Done waiting for pending navigations. Status: ok
+[1595539627.907][INFO]: Waiting for pending navigations...
+[1595539627.908][INFO]: Done waiting for pending navigations. Status: ok
+[1595539627.908][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XeYVPXZPvD7nDN9ey9sZSnLwsLSQUAERBQICiIgKLFExZ5oovE1P2NiTIw9wZpoLCAgAioCShEU6XWX3tnCdpats9PP+f0xsDDMzLJ9duH+XBeXcuozs7y+F..."
+[1595539627.922][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] COMMAND Quit {
+
+}
+[1595539627.947][INFO]: [07b45b1deda92944fc27e83c6e8a2a3f] RESPONSE Quit
